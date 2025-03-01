@@ -1,0 +1,432 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Zodiac - North Indian Chart</title>
+    <meta name="description"
+        content="Rotating astrological chart for 12 zodiac and 12 houses - Basic astrology">
+    <meta name="keywords" content="astrology, zodiac, house, sign, planet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .bgColor {
+            background-color: #EDE8DC !important;
+        }
+
+        .headerBgColor {
+            background-color: #ECDCBF !important;
+        }
+    </style>
+</head>
+
+<body>
+
+
+    <!-------- header -------------->
+    <nav class="navbar navbar-expand-lg headerBgColor">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#" style="color:#443627 !important;">Zodiac</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item float-end">
+                        <a class="nav-link" aria-current="page" href="../astro/index.html">Nakshtra</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="container mt-5">
+
+        <!-- North Indian Chart -->
+        <div class="row mt-5">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6" id="northIndianChartDiv">
+                <div class="position-relative">
+                    <div class="" id="svgChart">
+                        <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%"
+                            viewBox="0 0 300.000000 214.000000" preserveAspectRatio="xMidYMid meet">
+                            <metadata>
+                                Created by potrace 1.10, written by Peter Selinger 2001-2011
+                            </metadata>
+                            <g transform="translate(0.000000,214.000000) scale(0.100000,-0.100000)" fill="#B6A28E"
+                                stroke="none">
+                                <path d="M6 2099 c-9 -45 -5 -2040 4 -2069 4 -14 8 -19 9 -12 1 6 6 12 12 12
+                   5 0 8 -4 5 -9 -3 -5 13 -11 37 -13 57 -7 2878 -4 2897 2 8 3 18 14 21 25 9 26
+                   11 2023 3 2064 l-7 31 -1487 0 -1488 0 -6 -31z m775 11 c384 0 699 -4 699 -9
+                   0 -20 -86 -104 -129 -125 -25 -13 -109 -47 -186 -76 -244 -91 -381 -173 -411
+                   -246 l-14 -33 -278 197 c-153 108 -308 217 -345 242 -62 42 -88 70 -51 56 9
+                   -3 330 -6 715 -6z m2156 -14 c-10 -6 -166 -116 -347 -243 -181 -128 -331 -233
+                   -333 -233 -2 0 -17 21 -33 46 -38 59 -113 109 -255 168 -226 95 -360 166 -414
+                   220 l-50 51 720 5 c396 3 722 3 725 1 3 -2 -3 -8 -13 -15z m-2459 -321 l242
+                   -170 -69 -21 c-138 -42 -225 -112 -341 -274 -100 -141 -186 -209 -262 -210
+                   l-28 0 0 499 0 500 108 -77 c60 -42 217 -153 350 -247z m2502 -180 l0 -495
+                   -27 0 c-44 0 -124 44 -169 91 -23 24 -71 85 -107 135 -106 146 -184 208 -318
+                   253 l-76 26 341 242 c188 133 344 242 349 242 4 1 7 -222 7 -494z m-1441 443
+                   c55 -60 118 -95 351 -198 230 -101 268 -123 310 -182 36 -49 37 -59 8 -77 -13
+                   -8 -175 -121 -362 -253 -186 -132 -344 -237 -351 -234 -10 3 -704 489 -735
+                   513 -11 10 39 78 79 107 77 56 171 99 437 200 95 36 158 77 191 125 16 22 29
+                   40 30 41 2 0 20 -19 42 -42z m-416 -717 l357 -253 -32 -22 c-71 -49 -342 -239
+                   -511 -359 -177 -126 -177 -127 -225 -121 -26 2 -76 19 -112 36 -80 39 -213
+                   167 -289 281 -66 98 -118 150 -176 174 -52 21 -56 28 -17 36 49 10 118 74 202
+                   188 92 126 152 187 219 227 61 36 170 73 201 69 14 -2 186 -117 383 -256z
+                   m1225 233 c42 -14 98 -39 123 -55 58 -37 153 -136 206 -214 66 -98 120 -152
+                   179 -181 l55 -27 -41 -18 c-68 -30 -105 -66 -177 -167 -91 -130 -170 -212
+                   -260 -272 -83 -55 -139 -75 -175 -61 -26 10 -722 498 -725 509 -1 4 35 33 80
+                   64 45 31 206 145 357 252 151 107 281 195 288 196 8 0 48 -12 90 -26z m-2260
+                   -505 c64 -19 132 -78 197 -171 83 -118 146 -190 213 -242 70 -53 107 -73 172
+                   -89 l50 -13 -133 -94 c-72 -51 -157 -111 -187 -132 -30 -22 -107 -76 -170
+                   -120 -63 -44 -136 -96 -163 -115 l-47 -35 0 517 c0 438 2 516 14 512 8 -3 32
+                   -11 54 -18z m2892 -493 l0 -515 -331 235 c-182 129 -335 234 -340 234 -5 0 -9
+                   5 -9 10 0 6 7 10 15 10 48 0 216 119 288 203 24 29 68 86 97 127 65 93 95 126
+                   141 155 31 20 111 53 132 55 4 0 7 -231 7 -514z m-1102 233 c196 -139 361
+                   -256 366 -260 4 -4 -12 -28 -37 -53 -56 -55 -178 -118 -372 -191 -203 -76
+                   -248 -99 -295 -152 -22 -25 -40 -50 -40 -54 0 -18 -16 -8 -32 21 -32 56 -180
+                   137 -466 256 -45 19 -100 45 -121 58 -35 23 -111 101 -111 116 0 4 55 46 123
+                   93 67 48 230 163 362 257 132 93 246 167 253 165 7 -3 173 -118 370 -256z
+                   m-1118 -281 c0 -22 53 -80 104 -112 28 -18 103 -54 166 -81 238 -100 339 -153
+                   396 -209 30 -28 54 -57 54 -64 0 -9 -173 -12 -712 -14 -392 -2 -715 -1 -718 1
+                   -3 2 0 6 6 8 10 3 502 348 634 443 57 42 70 47 70 28z m2102 -413 c48 -33 88
+                   -62 88 -65 0 -3 -325 -4 -722 -3 -398 2 -722 5 -722 9 1 3 14 24 29 48 38 60
+                   101 98 260 156 262 96 440 196 460 260 5 16 45 -10 263 -164 141 -100 296
+                   -209 344 -241z" />
+                            </g>
+                        </svg>
+                    </div>
+                    <div id = "houseNumberList">
+                        <div id="house-1" class="position-absolute fw-medium fs-4 px-4 btn" style="top: 18%; left: 44%; color: #B6A28E;">1</div>
+                        <div id="house-2" class="position-absolute fw-medium fs-4  px-4 btn" style="top: 4%; left: 17%; color: #B6A28E;">2</div>
+                        <div id="house-12" class="position-absolute fw-medium fs-4  px-4 btn" style="top: 4%; right: 17%; color: #B6A28E;">12</div>
+
+                        <div id="house-7" class="position-absolute fw-medium fs-4 px-4 btn" style="bottom: 18%; left: 44%; color: #B6A28E;">7</div>
+                        <div id="house-6" class="position-absolute fw-medium fs-4 px-4 btn" style="bottom: 4%; left: 17%; color: #B6A28E;">6</div>
+                        <div id="house-8" class="position-absolute fw-medium fs-4 px-4 btn" style="bottom: 4%; right: 17%; color: #B6A28E;">8</div>
+
+                        <div id="house-4" class="position-absolute fw-medium fs-4 px-4 btn" style="top: 43%; left: 25%; color: #B6A28E;">4</div>
+                        <div id="house-3" class="position-absolute fw-medium fs-4 px-4 btn" style="top: 19%; left: 5%; color: #B6A28E;">3</div>
+                        <div id="house-5" class="position-absolute fw-medium fs-4 px-4 btn" style="bottom: 19%; left: 5%; color: #B6A28E;">5</div>
+
+                        <div id="house-10" class="position-absolute fw-medium fs-4 px-4 btn" style="top: 43%; right: 25%; color: #B6A28E;">10</div>
+                        <div id="house-11" class="position-absolute fw-medium fs-4 px-4 btn" style="top: 19%; right: 5%; color: #B6A28E;">11</div>
+                        <div id="house-9" class="position-absolute fw-medium fs-4 px-4 btn" style="bottom: 19%; right: 5%; color: #B6A28E;">9</div>
+                    </div>
+                </div>
+                <script src="northIndianChart.js"></script>
+            </div>
+            <div class="col-1 col-lg-3"></div>
+        </div>
+
+        <!-- Keywords -->
+        <div class="mt-5 mb-3"> <span></span></div>
+        <div class="row p-3 rounded" style="background-color:#EDE8DC !important;">
+
+            <!--- group 1 --->
+            <div class="col-4">
+                <div class="fs-4 p-3">House</div>
+                <ul class="list-group list-group-flush rounded" style="background-color:#EDE8DC !important;">
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">1 - House</div>
+                        <div class="pt-2">
+                            Self, body, head, brain, health, personality, physicality,
+                            main gate of house
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">2 - House</div>
+                        <div class="pt-2">
+                            food, accumulated wealth, speech, family members, family status,
+                            face, right eye, teeth, just after the entrance of house
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">3 - House</div>
+                        <div class="pt-2">
+                            younger sibling, short travel, documents, neighbors,
+                            meetings, courage, job interview, right hand, right ear, shoulder,
+                            ringtone, hobbies, changes of residence, signing contracts
+                        </div>
+                    </li>
+
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">4 - House</div>
+                        <div class="pt-2">
+                            mother, comfort, childhood, peace of mind, house, vehicle, property,
+                            heart, chest, lungs, Kitchen
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">5 - House</div>
+                        <div class="pt-2">
+                            children, entertainment, cinema, drawing room, chair, stomach
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">6 - House</div>
+                        <div class="pt-2">
+                            service, employees, daily routine, nursing, disease, health,
+                            enemy, dispute, loan, competition
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">7 - House</div>
+                        <div class="pt-2">
+                            marriage, dealing with others, business, marketplace,
+                            opponent, spouse, contracts, fridge
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">8 - House</div>
+                        <div class="pt-2">
+                            transformation, sudden changes, occult, longevity, insult, toilet,
+                            inheritance, private parts and colon area
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">9 - House</div>
+                        <div class="pt-2">
+                            father, spirituality, higher education, long-distance travel, luck, puja ghar
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">10 - House</div>
+                        <div class="pt-2">
+                            profession, fame, power, success, working desk
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">11 - House</div>
+                        <div class="pt-2">
+                            social circle, elder siblings, friends, gain, desires, electronics products,
+                            back door of the house , backyard
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">12 - House</div>
+                        <div class="pt-2">
+                            expanses, loss, sleep, donation, isolation,
+                            foreign country, hospital, Jail, bedroom, balcony
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--- group 2 --->
+            <div class="col-4">
+                <div class="fs-4 p-3">Sign</div>
+                <ul class="list-group list-group-flush rounded">
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Aries</div>
+                        <div class="pt-2">
+                            new beginning, ego,
+                            aggressive, quick,
+                            Gate of the house
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Taurus</div>
+                        <div class="pt-2">
+                            resources, food, responsibility, family relatives
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Gamini</div>
+                        <div class="pt-2">
+                            communication, business, trading, intellect, internet
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Cancer</div>
+                        <div class="pt-2">
+                            comfort zone, emotion, peace of mind, hotel, restaurant
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Leo</div>
+                        <div class="pt-2">
+                            position, fame, promise, show off, help others, capital city,
+                            draw boundaries, leader, head of the dept
+                            Govt. headquarters, chair
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Virgo</div>
+                        <div class="pt-2">
+                            dispute, delay, slow
+                            business, trade, Law, judicial, intellect, commercial house, netpicking
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Libra</div>
+                        <div class="pt-2">
+                            relationship, other people, diplomacy, gifts
+                            Intellectual, choice, opportunity, social gathering
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Scorpio</div>
+                        <div class="pt-2">
+                            transformation
+                            research, chemical, security, unsolved problems, secretive, micro organisms
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Sagittarius</div>
+                        <div class="pt-2">
+                            guru, long-term planning, higher vision
+                            forest, teaching, religious, accountancy, higher knowledge, religion, sign of war to have
+                            stability in Capricorn, manager
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Capricorn </div>
+                        <div class="pt-2">
+                            boundary, very limited, restrictions
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Aquarius</div>
+                        <div class="pt-2">
+                            expansion, meditation, independent, individuality,
+                            obsession, incomplete, short-term goals, shortcut
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Pisces</div>
+                        <div class="pt-2">
+                            isolation, independent thinking, bedroom, being alone, sea
+                        </div>
+                    </li>
+                </ul>
+            </div>
+
+            <!--- group 3 --->
+            <div class="col-4">
+                <div class="fs-4 p-3">Planet</div>
+                <ul class="list-group list-group-flush rounded">
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Sun</div>
+                        <div class="pt-2">
+                            soul, discipline, father, son, administrative person, government employee,
+                            leadership, Temple, govt office, horse, swan
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Moon</div>
+                        <div class="pt-2">
+                            mind, Mother, Mother-in-Law, Maternal Uncle wife, food, water, chemical, hotel,
+                            travel, milk, sales, healer, don't have routine, watery place, cow, deer
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Mercury</div>
+                        <div class="pt-2">
+                            education, name, communication,Maternal Uncle, Younger Brother / Sister,
+                            Publisher, clerk, agency person, salesman, media person, consultant,
+                            communication, kids, entertainment, games, playground, shops, pigeon's
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Venus</div>
+                        <div class="pt-2">
+                            Wife, wealth, clothes, luxury,
+                            Sister, Daughter, daughter-in-law,
+                            management, artist, luxury items, financial advisor, marriage hall owner
+                            Music, art, painting, bedroom, luxury place, bank, dove, sparrow
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Mars</div>
+                        <div class="pt-2">
+                            strength, focus, Brother, Husband
+                            technical person, engineer, police, army, fireplace, engineering,
+                            electricity, electrical equipment, tiger, wolf, Teeth
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Jupiter</div>
+                        <div class="pt-2">
+                            higher knowledge, wisdom, Self, Happyness
+                            teacher, professor, treasure house, school, college, books, wood, elephant
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Saturn</div>
+                        <div class="pt-2">
+                            profession, create pressure, hard work, elder brother, Service holders, servants,
+                            poor people, older people, oil, metal, wild animals, slums area, agricultural area,
+                            hills, forests, deserts, caves, dens and old and ruined buildings,
+                            dirty places etc, Construction
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Rahu</div>
+                        <div class="pt-2">
+                            attachment, obsessionl, parental grandfather, foreigners,
+                            IT engineers, photography, artificial light, cat
+                        </div>
+                    </li>
+                    <li class="list-group-item bgColor">
+                        <div class="fs-5  fw-medium">Ketu</div>
+                        <div class="pt-2">
+                            detachment, mathematics, astrology, spirituality, psychic abilities, codding,
+                            dog, worms, bugs, Stairs
+
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </div>
+
+
+    <!------------  Footer --------------->
+    <div class="container border-top mt-5 p-2">
+        <span class="text-body-secondary">
+            <small>
+                Note : above basic astrological details are based on indian astrology
+            </small>
+        </span>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        window.onclick = e => {
+            var houseId = e.target.id;
+            if(houseId.match("house-")){
+                var vClickedZodiacNumber = parseInt(document.getElementById(houseId).innerHTML);
+                for (let i = 0; i <12; i++) {
+                    var vZodiacNumber = (vClickedZodiacNumber +i) <=12 ? vClickedZodiacNumber +i : (vClickedZodiacNumber +i) -12;
+                    document.getElementById("house-"+(i+1)).innerHTML = vZodiacNumber;
+                }
+            }
+        }
+    </script>
+
+
+
+</body>
+
+</html>

@@ -1,3 +1,5 @@
+// Nakshtra Circel Data
+
 DataList = [
     // ============================= Aries ===========================
     // ----------------------------- Ashwini -------------------------
@@ -830,4 +832,173 @@ DataList = [
         Zodiac: 'Pieces',
         DegreeSapn: 3
     },
+];
+
+
+
+// -------------------------------------------------------------------------------------------
+// Nakshtra info chart
+var nakshtraInfoList = [
+{
+    id : '1',
+    name : 'Ashwini',
+    info : 'The Star of Transport',
+    Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
+},
+{
+    id : '2',
+    name : 'Bharani',
+    info : 'The Star of Restraint',
+    Shakti : 'Apabharani Shakti (The Power to “Take Things Away and Move On or Power to Cleanse and Remove Impurities”',
+},
+{
+    id : '3',
+    name : 'Krittika',
+    info : 'The Star of Fire',
+    Shakti : 'Dahana Shakti (The Power to “Burn and Purify or refers to its Power to Sever ties with the Corporal”)',
+},
+{
+    id : '4',
+    name : 'Rohini',
+    info : 'The Star Of Ascent',
+    Shakti : 'Rohana Shakti (The Power to “Make things Grow and Create”)',
+},
+{
+    id : '5',
+    name : 'Mrigashira',
+    info : 'The Searching Star',
+    Shakti : 'Prinana Shakti (The Power to “Give Fulfilment and Joy”)',
+},
+{
+    id : '6',
+    name : 'Ardra',
+    info : 'The Star of Sorrow, Star of Oppression',
+    Shakti : 'Yatna Shakti (The Power to “Make an Effort and Achievement”)',
+},
+{
+    id : '7',
+    name : 'Punarvasu',
+    info : 'The Star of Renewal',
+    Shakti : 'Vasutva Prapana Shakti (The Power to “Gain or Receive Objectives or ability to Gain Wealth and Substance”)',
+},
+{
+    id : '8',
+    name : 'Pushya',
+    info : 'The Star of Nourishment',
+    Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
+},
+{
+    id : '9',
+    name : 'Ashlesha',
+    info : 'The Clinging Star',
+    Shakti : 'Vis Ashleshana Shakti (The Power to “Inflict Poison and Destroy the Victim”)',
+},
+{
+    id : '10',
+    name : 'Magha',
+    info : 'The Star of Power',
+    Shakti : 'Tyage Shepani Shakti (The Power to Leave the Body)',
+},
+{
+    id : '11',
+    name : 'Purva Phalguni',
+    info : 'The Fruit of the Tree',
+    Shakti : 'Prajanana Shakti (The Power to “Procreate or Union of Polar Opposites”)',
+},
+{
+    id : '12',
+    name : 'Uttara Phalguni',
+    info : 'The Star of Patronage',
+    Shakti : 'Chayani Shakti (The Power of “Prosperity, Wealth and Accumulation through Partnerships or Marriage”)',
+},
+{
+    id : '13',
+    name : 'Hasta',
+    info : 'The Golden Handed Star',
+    Shakti : 'Hasta Sthapaniyaagama Shakti (The Power to “Put one’s Objects of Desire into one’s Hand or to Gain what one is Seeking”)',
+},
+{
+    id : '14',
+    name : 'Chitra',
+    info : 'The Star of Opportunity',
+    Shakti : 'Punya Chayani Shakti (The Power to “Accumulate Good Karma or Merit in Life”)',
+},
+{
+    id : '15',
+    name : 'Swati',
+    info : 'The Self-Going Star',
+    Shakti : 'Pradhvamsa Shakti (The Power to “Disburse/ Scatter like the Wind or Transform”)',
+},
+{
+    id : '16',
+    name : 'Vishakha',
+    info : 'The Star of Purpose',
+    Shakti : 'Vyapana Shakti (The Power to “Achieve and Make Manifest, Power to Achieve many and various Fruits of Life”)',
+},
+{
+    id : '17',
+    name : 'Anuradha',
+    info : 'The Star of Success',
+    Shakti : 'Radhana Shakti (The Power “of Worship”)',
+},
+{
+    id : '18',
+    name : 'Jyeshtha',
+    info : 'The Chief or Elder Star',
+    Shakti : 'Arohana Shakti (The Power to “Rise above Perils and to Conquer the Subconscious” or the Power to “Rise, Overcome, Conquer, and Gain Courage in Battle”)',
+},
+{
+    id : '19',
+    name : 'Moola',
+    info : 'The Foundation Star',
+    Shakti : 'Barhana Shakti (The Power to “Ruin, Destroy and to Break Things Apart”)',
+},
+{
+    id : '20',
+    name : 'Purva Ashadha',
+    info : 'The Invincible Star',
+    Shakti : 'Varchagrahan Shakti (The Power to “Invigorate or Energise”)',
+},
+{
+    id : '21',
+    name : 'Uttara Ashadha',
+    info : 'The Universal Star',
+    Shakti : 'Apradhrishya Shakti (The Power to “Give an Unstoppable or Permanent Victory”)',
+},
+{
+    id : '22',
+    name : 'Shravana',
+    info : 'The Star of Learning Ear',
+    Shakti : 'Samhanana Shakti (The Power to “Connect with Others”)',
+},
+{
+    id : '23',
+    name : 'Dhanishta',
+    info : 'The Star of Symphony',
+    Shakti : 'Khyapayitri Shakti (The Power to “Give Fame and Abundance”)',
+},
+{
+    id : '24',
+    name : 'Shatabhisha',
+    info : 'The Hundred Stars, The Veiling Star',
+    Shakti : 'Bheshaja Shakti (The Power to “Heal and Support”)',
+},
+{
+    id : '25',
+    name : 'Purva Bhadrapada',
+    info : 'The Scorching or Burning Pair',
+    Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
+},
+{
+    id : '26',
+    name : 'Uttara Bhadrapada',
+    info : 'The Warrior Star',
+    Shakti : 'Varshodyamana Shakti (The Power to “Bring Rain and to Grow Plants or Bring Stability”)',
+},
+{
+    id : '27',
+    name : 'Revati',
+    info : 'The Wealthy Star',
+    Shakti : 'Kshiradyapani Shakti (The Power to “Nourish, Protect, and Foster”, the Power of Nourishment is Symbolized by ‘Kshira’ which is Milk)',
+}
 ];

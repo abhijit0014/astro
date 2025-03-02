@@ -28,7 +28,8 @@
         .headerBgColor {
             background-color: #ECDCBF !important;
         }
-        .badgeBg{
+
+        .badgeBg {
             background-color: #BDB395 !important;
         }
     </style>
@@ -45,13 +46,12 @@
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item float-end">
-                        <a class="nav-link" aria-current="page" href="../astro/zodiac-chart.html">Zodiac</a>
-                    </li>
-                </ul>
-            </div>
+
+            <nav class="nav justify-content-end">
+                <a class="nav-link disabled " aria-current="page" href="../astro/index.html">Nakshtra</a>
+                <a class="nav-link active" style="color:#443627 !important;" aria-current="page" href="../astro/zodiac-chart.html">Zodiac</a>
+            </nav>
+
         </div>
     </nav>
 
@@ -60,202 +60,78 @@
 
         <!-- circular chart -->
         <div class="row">
-            <div class="col-3"></div>
-            <div class="col-6">
+            <div class="col-1 col-lg-3"></div>
+            <div class="col-10 col-lg-6">
                 <canvas id="doughnutChart" width="100%" height="100%"></canvas>
                 <script src="doughnutChart.js"></script>
             </div>
-            <div class="col-3"></div>
+            <div class="col-1 col-lg-3"></div>
         </div>
 
-        <!-- Keywords -->
+
+
+        <!------------ Nakshtra list--------------->
+
         <div class="mt-5 mb-3"> <span></span></div>
-        <div class="row p-3 rounded" style="background-color:#EDE8DC !important;">
+        <div id="publishList" class="row p-3 rounded" style="background-color:#EDE8DC !important;">
 
-            <!--- group 1 --->
-            <div class="col-4">
+            <!--- publish generated list --->
+
+        </div>
+
+        <!--- Template -->
+        <div id ="groupTemplate" hidden>
+            <div  class="col col-md-4" >
                 <ul class="list-group list-group-flush rounded" style="background-color:#EDE8DC !important;">
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">1</span> Ashwini</div>
-                        <div class="pt-2">
-                            The Star of Transport
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">2</span> Bharani</div>
-                        <div class="pt-2">
-                            The Star of Restraint
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">3</span> Krittika</div>
-                        <div class="pt-2">
-                            The Star of Fire
-                        </div>
-                    </li>
-
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">4</span> Rohini</div>
-                        <div class="pt-2">
-                            The Star Of Ascent
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">5</span> Mrigashira</div>
-                        <div class="pt-2">
-                            The Searching Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">6</span> Ardra</div>
-                        <div class="pt-2">
-                            The Star of Sorrow, Star of Oppression
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">7</span> Punarvasu</div>
-                        <div class="pt-2">
-                            The Star of Renewal
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">8</span> Pushya</div>
-                        <div class="pt-2">
-                            The Star of Nourishment
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">9</span> Ashlesha</div>
-                        <div class="pt-2">
-                            The Clinging Star
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <!--- group 2 --->
-            <div class="col-4">
-                <ul class="list-group list-group-flush rounded">
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">10</span> Magha</div>
-                        <div class="pt-2">
-                            The Star of Power
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">11</span> Purva Phalguni</div>
-                        <div class="pt-2">
-                            The Fruit of the Tree
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">12</span> Uttara Phalguni</div>
-                        <div class="pt-2">
-                            The Star of Patronage
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">13</span> Hasta</div>
-                        <div class="pt-2">
-                            The Golden Handed Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">14</span> Chitra</div>
-                        <div class="pt-2">
-                            The Star of Opportunity
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">15</span> Swati</div>
-                        <div class="pt-2">
-                            The Self-Going Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">16</span> Vishakha</div>
-                        <div class="pt-2">
-                            The Star of Purpose
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">17</span> Anuradha</div>
-                        <div class="pt-2">
-                            The Star of Success
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">18</span> Jyeshtha</div>
-                        <div class="pt-2">
-                            The Chief or Elder Star
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <!--- group 3 --->
-            <div class="col-4">
-
-                <ul class="list-group list-group-flush rounded">
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">19</span> Mula</div>
-                        <div class="pt-2">
-                            The Foundation Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">20</span> Purva Ashadha</div>
-                        <div class="pt-2">
-                            The Invincible Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">21</span> Uttara Ashadha</div>
-                        <div class="pt-2">
-                            The Universal Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">22</span> Shravana</div>
-                        <div class="pt-2">
-                            The Star of Learning Ear
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">23</span> Dhanishta</div>
-                        <div class="pt-2">
-                            The Star of Symphony
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">24</span> Shatabhisha</div>
-                        <div class="pt-2">
-                            The Hundred Stars, The Veiling Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">25</span> Purva Bhadrapada</div>
-                        <div class="pt-2">
-                            The Scorching or Burning Pair
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">26</span> Uttara Bhadrapada</div>
-                        <div class="pt-2">
-                            The Warrior Star
-                        </div>
-                    </li>
-                    <li class="list-group-item bgColor">
-                        <div class="fs-6  fw-medium"><span class="badge badgeBg">27</span> Revati</div>
-                        <div class="pt-2">
-                            The Wealthy Star
-                        </div>
-                    </li>
-
+                    #itemList
                 </ul>
             </div>
         </div>
+
+        <div id ="itemTemplate" hidden>
+            <li class="list-group-item bgColor" >
+                <div><span class="fs-5  fw-medium">#title</span>  - #subtitle</div>
+                <div class="pt-1 pb-2">
+                    #shakti
+                </div>
+            </li>
+        </div>
+
+
+        <script>
+
+            var groupCounter = '';
+            var generatedHtml = '';
+            var itemList = '';
+
+            var itemTemplate = document.getElementById("itemTemplate").innerHTML;
+            var groupTemplate = document.getElementById("groupTemplate").innerHTML;
+
+            for (let i = 0; i < nakshtraInfoList.length; i++) {
+                    
+                //itemList = itemList + itemTemplate.replace('#replaceList', grouplist);
+                var temp = itemTemplate.replace("#title", nakshtraInfoList[i].name);
+                temp = temp.replace("#subtitle", nakshtraInfoList[i].info);
+                temp = temp.replace("#shakti", nakshtraInfoList[i].Shakti);
+                itemList = itemList + temp;
+
+                if((i+1)%9==0){
+                    var generatedHtml = generatedHtml + groupTemplate.replace("#itemList", itemList);
+                    itemList = '';
+                }
+                
+            }
+
+            //document.getElementById("publishList").innerText = itemTemplate;
+            document.getElementById("publishList").innerHTML = generatedHtml;
+        </script>
+
+
+
     </div>
+
+
+
 
 
     <!------------  Footer --------------->
@@ -269,7 +145,6 @@
 
     <script>
         drawDonutChart();
-        drawNorthIndianChart();  
     </script>
 
 

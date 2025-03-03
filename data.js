@@ -935,14 +935,14 @@ var nakshtraInfoList = [
     name : 'Chitra',
     info : 'The Star of Opportunity',
     Shakti : 'Punya Chayani Shakti (The Power to “Accumulate Good Karma or Merit in Life”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Chitra Nakshatra is associated with the divine architect, Vishwakarma (also known as Tvastar), who is responsible for creating the beautiful and intricate designs of the celestial realm, including the weapons of the gods and the architectural wonders of heaven'
 },
 {
     id : '15',
     name : 'Swati',
     info : 'The Self-Going Star',
     Shakti : 'Pradhvamsa Shakti (The Power to “Disburse/ Scatter like the Wind or Transform”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Swati Nakshatra is primarily associated with Vayu, the Wind God, symbolizing freedom, movement, and adaptability; hence, stories often depict the power of wind and its ability to change direction freely'
 },
 {
     id : '16',
@@ -956,21 +956,21 @@ var nakshtraInfoList = [
     name : 'Anuradha',
     info : 'The Star of Success',
     Shakti : 'Radhana Shakti (The Power “of Worship”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Anuradha is the nakshatra of devotion, love, friendliness, commitment, loyalty and determination! Radha`s devotion to Lord Krishna has a big connection to this'
 },
 {
     id : '18',
     name : 'Jyeshtha',
     info : 'The Chief or Elder Star',
     Shakti : 'Arohana Shakti (The Power to “Rise above Perils and to Conquer the Subconscious” or the Power to “Rise, Overcome, Conquer, and Gain Courage in Battle”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Jyeshtha Nakshatra is associated with the deity Indra, the king of the gods, signifying its connection to leadership, power, and authority'
 },
 {
     id : '19',
     name : 'Moola',
     info : 'The Foundation Star',
     Shakti : 'Barhana Shakti (The Power to “Ruin, Destroy and to Break Things Apart”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Moola Nakshatra is associated with the story of the goddess Kali and her fierce battle with the demons. This reflects the transformative and intense nature of this nakshatra'
 },
 {
     id : '20',
@@ -991,41 +991,41 @@ var nakshtraInfoList = [
     name : 'Shravana',
     info : 'The Star of Learning Ear',
     Shakti : 'Samhanana Shakti (The Power to “Connect with Others”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Shravana Nakshatra is primarily associated with the story of King Bali (also called Mahabali), a demon king, and Lord Vishnu`s Vamana avatar'
 },
 {
     id : '23',
     name : 'Dhanishta',
     info : 'The Star of Symphony',
     Shakti : 'Khyapayitri Shakti (The Power to “Give Fame and Abundance”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Dhruva`s (Dhruva Tara) story emphasizes the importance of unwavering dedication and concentration to achieve one`s goals. '
 },
 {
     id : '24',
     name : 'Shatabhisha',
     info : 'The Hundred Stars, The Veiling Star',
     Shakti : 'Bheshaja Shakti (The Power to “Heal and Support”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Shatabhisha Nakshatra is associated with the deity Varuna, the cosmic water-god, and is often depicted as a "thousand healers" due to its strong connection to healing, purification, and the mysteries of the universe; the name "Shatabhisha" itself translates to "a hundred healers."'
 },
 {
     id : '25',
     name : 'Purva Bhadrapada',
     info : 'The Scorching or Burning Pair',
     Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Purva Bhadrapada nakshatra is associated with the deity "Aja Ekapada," a one-footed goat, representing the concept of transformation and the cycle of life and death, signifying the ending of one phase and the beginning of another through significant change and spiritual growth'
 },
 {
     id : '26',
     name : 'Uttara Bhadrapada',
     info : 'The Warrior Star',
     Shakti : 'Varshodyamana Shakti (The Power to “Bring Rain and to Grow Plants or Bring Stability”)',
-    associatedCharacters : ''
+    associatedCharacters : 'Uttara Bhadrapada nakshatra is associated with the deity "Ahirbudhnya," a serpent-like figure considered the guardian of cosmic waters and deep, transformative forces, often linked to the subconscious realms'
 },
 {
     id : '27',
     name : 'Revati',
     info : 'The Wealthy Star',
     Shakti : 'Kshiradyapani Shakti (The Power to “Nourish, Protect, and Foster”, the Power of Nourishment is Symbolized by ‘Kshira’ which is Milk)',
-    associatedCharacters : ''
+    associatedCharacters : 'Revati Nakshatra is primarily associated with the story of Princess Revati, the daughter of King Raivata, who was eventually married to Balarama, the brother of Lord Krishna, signifying the themes of wealth, prosperity, and divine intervention in finding a suitable partner'
 }
 ];

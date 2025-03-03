@@ -69,14 +69,14 @@
         <!------------ Nakshtra list--------------->
 
         <div class="mt-5 mb-3"> <span></span></div>
-        <div id="publishList" class="row p-3 rounded" style="background-color:#EDE8DC !important;">
+        <div id="publishList" class="row p-3 rounded" >
 
             <!--- publish generated list --->
 
         </div>
 
         <!--- Template -->
-        <div id ="groupTemplate" hidden>
+        <div id ="groupTemplate1" hidden>
             <div  class="col col-md-4" >
                 <ul class="list-group list-group-flush rounded" style="background-color:#EDE8DC !important;">
                     #itemList
@@ -84,14 +84,43 @@
             </div>
         </div>
 
-        <div id ="itemTemplate" hidden>
-            <li class="list-group-item bgColor" >
+        <div id ="itemTemplate1" hidden>
+            <li class="list-group-item bgColor border-0" >
                 <div><span class="fs-5  fw-medium">#title</span>  - #subtitle</div>
-                <div class="pt-1 pb-2">
-                    #shakti
+                <div class="pt-1">
+                    <span class="fw-medium">Shakti</span> - #shakti
+                </div>
+                
+                <div class="pb-2">
+                    <span class="fw-medium">Associated Characters</span> - #associatedCharacters
                 </div>
             </li>
         </div>
+
+        <!--- Template 2 -->
+        <div id ="groupTemplate" hidden>
+            <div class="row row-cols-1 row-cols-md-3 g-3" >
+                    #itemList
+            </div>
+        </div>
+
+        <div id ="itemTemplate" hidden>
+            <div class="col">
+                <div class="card h-100">
+                    <div class="card-header ">
+                        <h5 class="card-title">#title</h5>
+                        <h6 class="card-subtitle mb-2 text-body-secondary">#subtitle</h6>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text"><span class="fw-medium">Shakti</span> - #shakti</p>
+                        <p class="card-text"><span class="fw-medium">Associated Characters</span> - #associatedCharacters</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
 
 
         <script>
@@ -109,14 +138,12 @@
                 var temp = itemTemplate.replace("#title", nakshtraInfoList[i].name);
                 temp = temp.replace("#subtitle", nakshtraInfoList[i].info);
                 temp = temp.replace("#shakti", nakshtraInfoList[i].Shakti);
+                temp = temp.replace("#associatedCharacters", nakshtraInfoList[i].associatedCharacters);
                 itemList = itemList + temp;
 
-                if((i+1)%9==0){
-                    var generatedHtml = generatedHtml + groupTemplate.replace("#itemList", itemList);
-                    itemList = '';
-                }
-                
             }
+
+            var generatedHtml = generatedHtml + groupTemplate.replace("#itemList", itemList);
 
             //document.getElementById("publishList").innerText = itemTemplate;
             document.getElementById("publishList").innerHTML = generatedHtml;

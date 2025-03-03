@@ -844,161 +844,188 @@ var nakshtraInfoList = [
     name : 'Ashwini',
     info : 'The Star of Transport',
     Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
+    associatedCharacters : 'Ashwini Kumaras, twin divine horsemen who are considered the physicians to the gods'
 },
 {
     id : '2',
     name : 'Bharani',
     info : 'The Star of Restraint',
     Shakti : 'Apabharani Shakti (The Power to “Take Things Away and Move On or Power to Cleanse and Remove Impurities”',
+    associatedCharacters : 'Bharani Nakshatra is primarily associated with Yama, the god of death, and its story revolves around his birth and the complexities of his family, highlighting themes of justice, transformation, and the cycle of life and death'
 },
 {
     id : '3',
     name : 'Krittika',
     info : 'The Star of Fire',
     Shakti : 'Dahana Shakti (The Power to “Burn and Purify or refers to its Power to Sever ties with the Corporal”)',
+    associatedCharacters : 'It is associated with the six Krittikas, celestial mothers who nurtured the infant Lord Kartikeya (Murugan), the god of war'
 },
 {
     id : '4',
     name : 'Rohini',
     info : 'The Star Of Ascent',
     Shakti : 'Rohana Shakti (The Power to “Make things Grow and Create”)',
+    associatedCharacters : 'Rohini Nakshatra is associated with the story of Prajapati Daksha, who had 27 daughters, and he gave them all in marriage to Chandra'
 },
 {
     id : '5',
     name : 'Mrigashira',
     info : 'The Searching Star',
     Shakti : 'Prinana Shakti (The Power to “Give Fulfilment and Joy”)',
+    associatedCharacters : 'Mrigashira Nakshatra is associated with the story of the Moon God (Chandra) searching for Soma, the elixir of immortality, which was stolen'
 },
 {
     id : '6',
     name : 'Ardra',
     info : 'The Star of Sorrow, Star of Oppression',
     Shakti : 'Yatna Shakti (The Power to “Make an Effort and Achievement”)',
+    associatedCharacters : 'Ardra Nakshatra is associated with the god Rudra, a fierce and destructive form of Shiva. Ardra Nakshatra is a symbol of destruction and renewal, and is associated with cleansing, transformation, and emotional release'
 },
 {
     id : '7',
     name : 'Punarvasu',
     info : 'The Star of Renewal',
     Shakti : 'Vasutva Prapana Shakti (The Power to “Gain or Receive Objectives or ability to Gain Wealth and Substance”)',
+    associatedCharacters : 'Punarvasu Nakshatra is associated with the goddess Aditi, who is the mother of the gods. The word "Punarvasu" means "renewal" or "return of the light"',
 },
 {
     id : '8',
     name : 'Pushya',
     info : 'The Star of Nourishment',
     Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
+    associatedCharacters : ''
 },
 {
     id : '9',
     name : 'Ashlesha',
     info : 'The Clinging Star',
     Shakti : 'Vis Ashleshana Shakti (The Power to “Inflict Poison and Destroy the Victim”)',
+    associatedCharacters : ''
 },
 {
     id : '10',
     name : 'Magha',
     info : 'The Star of Power',
     Shakti : 'Tyage Shepani Shakti (The Power to Leave the Body)',
+    associatedCharacters : 'Magha Nakshatra is linked to the Pitris, or ancestors. It represents respect for tradition, honor, and preserving family heritage'
 },
 {
     id : '11',
     name : 'Purva Phalguni',
     info : 'The Fruit of the Tree',
     Shakti : 'Prajanana Shakti (The Power to “Procreate or Union of Polar Opposites”)',
+    associatedCharacters : 'Purva Phalguni Nakshatra is associated with the deity "Bhaga," the god of marital bliss and prosperity'
 },
 {
     id : '12',
     name : 'Uttara Phalguni',
     info : 'The Star of Patronage',
     Shakti : 'Chayani Shakti (The Power of “Prosperity, Wealth and Accumulation through Partnerships or Marriage”)',
+    associatedCharacters : 'Uttara Phalguni Nakshatra is associated with Aryaman, a deity who governs marriage contracts, alliances, and social order, symbolizing the themes of friendship, commitment, and loyalty'
 },
 {
     id : '13',
     name : 'Hasta',
     info : 'The Golden Handed Star',
     Shakti : 'Hasta Sthapaniyaagama Shakti (The Power to “Put one’s Objects of Desire into one’s Hand or to Gain what one is Seeking”)',
+    associatedCharacters : ''
 },
 {
     id : '14',
     name : 'Chitra',
     info : 'The Star of Opportunity',
     Shakti : 'Punya Chayani Shakti (The Power to “Accumulate Good Karma or Merit in Life”)',
+    associatedCharacters : ''
 },
 {
     id : '15',
     name : 'Swati',
     info : 'The Self-Going Star',
     Shakti : 'Pradhvamsa Shakti (The Power to “Disburse/ Scatter like the Wind or Transform”)',
+    associatedCharacters : ''
 },
 {
     id : '16',
     name : 'Vishakha',
     info : 'The Star of Purpose',
     Shakti : 'Vyapana Shakti (The Power to “Achieve and Make Manifest, Power to Achieve many and various Fruits of Life”)',
+    associatedCharacters : ''
 },
 {
     id : '17',
     name : 'Anuradha',
     info : 'The Star of Success',
     Shakti : 'Radhana Shakti (The Power “of Worship”)',
+    associatedCharacters : ''
 },
 {
     id : '18',
     name : 'Jyeshtha',
     info : 'The Chief or Elder Star',
     Shakti : 'Arohana Shakti (The Power to “Rise above Perils and to Conquer the Subconscious” or the Power to “Rise, Overcome, Conquer, and Gain Courage in Battle”)',
+    associatedCharacters : ''
 },
 {
     id : '19',
     name : 'Moola',
     info : 'The Foundation Star',
     Shakti : 'Barhana Shakti (The Power to “Ruin, Destroy and to Break Things Apart”)',
+    associatedCharacters : ''
 },
 {
     id : '20',
     name : 'Purva Ashadha',
     info : 'The Invincible Star',
     Shakti : 'Varchagrahan Shakti (The Power to “Invigorate or Energise”)',
+    associatedCharacters : ''
 },
 {
     id : '21',
     name : 'Uttara Ashadha',
     info : 'The Universal Star',
     Shakti : 'Apradhrishya Shakti (The Power to “Give an Unstoppable or Permanent Victory”)',
+    associatedCharacters : ''
 },
 {
     id : '22',
     name : 'Shravana',
     info : 'The Star of Learning Ear',
     Shakti : 'Samhanana Shakti (The Power to “Connect with Others”)',
+    associatedCharacters : ''
 },
 {
     id : '23',
     name : 'Dhanishta',
     info : 'The Star of Symphony',
     Shakti : 'Khyapayitri Shakti (The Power to “Give Fame and Abundance”)',
+    associatedCharacters : ''
 },
 {
     id : '24',
     name : 'Shatabhisha',
     info : 'The Hundred Stars, The Veiling Star',
     Shakti : 'Bheshaja Shakti (The Power to “Heal and Support”)',
+    associatedCharacters : ''
 },
 {
     id : '25',
     name : 'Purva Bhadrapada',
     info : 'The Scorching or Burning Pair',
     Shakti : 'Shidravyapani Shakti (Power to “Quickly reaching Things or to Quickly attain one’s Objectives”)',
+    associatedCharacters : ''
 },
 {
     id : '26',
     name : 'Uttara Bhadrapada',
     info : 'The Warrior Star',
     Shakti : 'Varshodyamana Shakti (The Power to “Bring Rain and to Grow Plants or Bring Stability”)',
+    associatedCharacters : ''
 },
 {
     id : '27',
     name : 'Revati',
     info : 'The Wealthy Star',
     Shakti : 'Kshiradyapani Shakti (The Power to “Nourish, Protect, and Foster”, the Power of Nourishment is Symbolized by ‘Kshira’ which is Milk)',
+    associatedCharacters : ''
 }
 ];
